@@ -1,0 +1,81 @@
+.page-header {
+  background: url(../img/bg.jpg) repeat;
+}
+
+.page-header__top {
+  .clearfix();
+  margin-bottom: 10px;
+}
+
+.page-header__logo {
+  float: left;
+  margin-top: 15px;
+}
+
+.h1-title {
+  float: left;
+  margin-top: 35px;
+  margin-left: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #070767;
+  text-transform: uppercase;
+}
+
+@-moz-document url-prefix() {
+  
+  .page-header__top {
+    position: relative;
+  .clearfix();
+  margin-bottom: 10px;
+}
+  
+    .page-header__logo, 
+  .page-header__logo img{
+    position: absolute;
+    top: -5px;
+    left:0;
+  display: inline-block;
+  margin-top: 15px;
+}
+  
+ .h1-title {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 170px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #070767;
+  text-transform: uppercase;
+}
+
+}
+
+@supports (-ms-accelerator:true) {
+  
+  .page-header__top {
+    position: relative;
+  .clearfix();
+  margin-bottom: 10px;
+}
+  
+    .page-header__logo, 
+  .page-header__logo img{
+    position: absolute;
+    top: -5px;
+    left:0;
+  display: inline-block;
+  margin-top: 15px;
+}
+  
+ .h1-title {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 170px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #070767;
+  text-transform: uppercase;
+}
+  
+}

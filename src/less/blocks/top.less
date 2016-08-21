@@ -1,0 +1,96 @@
+.top {
+  .clearfix();
+  height: 53px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #e86d41;
+}
+
+.top__tel,
+.top__email {
+  position: relative;
+  float: left;
+  margin-right: 15px;
+  padding: 15px 0;
+  vertical-align: middle;
+}
+
+.top__tel {
+  font-size: 20px;
+}
+
+.top__email {
+  font-size: 24px;
+  margin-left: 25px;
+  padding: 12px 0;
+  
+  &::before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: -25px;
+    width: 22px;
+    height: 21px;
+    background: url(../img/icon-mail.png) no-repeat;
+  }
+}
+
+.top__tel:first-child {
+  margin-left: 25px;
+}
+
+.top__tel:first-child::before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: -25px;
+  width: 21px;
+  height: 20px;
+  background: url(../img/icon-tel.png) no-repeat;
+}
+
+.top__tel::after {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: 160px;
+  width: 4px;
+  height: 20px;
+  background: url(../img/icon-point.png) no-repeat;
+}
+
+@-moz-document url-prefix() {
+ .top__tel::after {
+  position: absolute;
+  content: "";
+  top: 17px;
+  left: 165px;
+  width: 4px;
+  height: 20px;
+  background: url(../img/icon-point.png) no-repeat;
+  }
+
+}
+
+@supports (-ms-accelerator:true) {
+    .top__tel::after {
+  position: absolute;
+  content: "";
+  top: 17px;
+  left: 165px;
+  width: 4px;
+  height: 20px;
+  background: url(../img/icon-point.png) no-repeat;
+  }
+}
+
+.socials {
+  float: right;
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.social {
+  display: inline-block;
+}
