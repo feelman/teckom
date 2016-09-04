@@ -85,7 +85,7 @@
         <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item  main-nav__item--in  main-nav__item--active">
-              <a href="satellite_phones.html">
+              <a href="satellite_phones.php">
                 <span>Спутниковые телефоны</span>
               </a>
             </li>
@@ -298,7 +298,7 @@ Android</h5>
           <h3 class="h3-title">Оборудование</h3>
           <ul class="page-footer__list">
             <li class="page-footer__item">
-              <a href="satellite_phones.html">Спутниковые телефоны</a>
+              <a href="satellite_phones.php">Спутниковые телефоны</a>
             </li>
             <li class="page-footer__item">
               <a href="#">Спутниковые терминалы</a>

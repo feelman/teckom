@@ -14,7 +14,8 @@ module.exports = function(grunt) {
             "fonts/**/*.{woff,woff2}",
             "img/**",
             "js/**",
-            "*.html"
+            "*.html",
+            "*.php"
           ],
           dest: "build"
         }]
@@ -24,6 +25,14 @@ module.exports = function(grunt) {
           expand: true,
           cwd: "src",
           src: ["*.html"],
+          dest: "build"
+        }]
+      },
+      php: {
+        files: [{
+          expand: true,
+          cwd: "src",
+          src: ["*.php"],
           dest: "build"
         }]
       }
@@ -102,12 +111,25 @@ module.exports = function(grunt) {
         }]
       }
     },
+    
+    php: {
+        dist: {
+            options: {
+                hostname: '127.0.0.1',
+                port: 9000,
+                base: 'build', // Project root 
+                keepalive: false,
+                open: false
+            }
+        }
+    },
 
     browserSync: {
       server: {
         bsFiles: {
           src: [
             "*.html",
+            "*.php",
             "css/*.css"
           ]
         },
@@ -126,6 +148,10 @@ module.exports = function(grunt) {
         files: ["src/*.html"],
         tasks: ["copy:html"]
       },
+      php: {
+        files: ["src/*.php"],
+        tasks: ["copy:php"]
+      },
       style: {
         files: ["src/less/**/*.less"],
         tasks: ["less", "postcss", "csso"],
@@ -136,7 +162,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask("serve", ["browserSync", "watch"]);
+  grunt.registerTask("serve", ["php:dist", "browserSync", "watch"]);
   grunt.registerTask("symbols", ["svgmin", "svgstore"]);
   grunt.registerTask("build", [
     "clean",
