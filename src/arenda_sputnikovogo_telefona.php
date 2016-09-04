@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Спутниковая связь Iridium</title>
+    <title>Аренда спутникового телефона</title>
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
@@ -125,57 +125,68 @@
             <div class="breadcrumbs">
               <a href="/">Главная</a>
               <span>>></span>
-              <a>Телефоны спутниковой связи Iridium</a>
+              <a>Спутниковые телефоны</a><br>
+              <span>>></span>
+              <a>Аренда спутникового телефона</a>
             </div>
             <div class="cart">
               <img src="img/icon-cart.png">
             </div>
           </div>
           <div class="catalog">
-            <h2 class="h2-title  h2-title--in"><a>Спутниковая связь Iridium</a></h2>
-            <div class="catalog__list">
-              <div class="catalog__list-top">
-                <div class="catalog__list-logo">
-                  <div class="catalog__list-logo-img"><img src="img/logo-iridium.png"></div>
-                </div>
-                <h4 class="h4-title">Спутниковые телефоны iridium</h4>
-              </div>
-              <div class="catalog__list-top-descr"><p>Iridium — единственная в мире по-настоящему глобальная компания мобильной спутниковой связи, предлагающая решения и сервисы с возможностью передачи голоса и данных в любой точке земного шара.</p></div>
-              <div class="catalog__list-main">
-                <div class="catalog-item">
-                  <a href="iridium_go.php">
-                    <div class="catalog__item-img"><img src="img/iridium-go.jpg"></div>
-                    <h5 class="catalog__item-title">Iridium go</h5>
-                    <div class="catalog__item-info">Wi-fi hot-spot, превращает смартфон в полноценный спутниковый телефон</div>
-                    <div class="catalog__item-footer">
-                      <div class="catalog__item-price">71 000Р</div>
-                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
-                    </div>
-                  </a>
-                </div>
-                <div class="catalog-item">
+            <h2 class="h2-title  h2-title--in"><a>АРЕНДА СПУТНИКОВОГО ТЕЛЕФОНА</a></h2>
+            <div class="article">
+              <p>Аренда спутниковых телефонов системы Глобалстар подойдет для разовых поездок по России и СНГ. В аренду можно взять телефоны следующих моделей Telit SAT 550 или Qualcomm GSP1700.</p>
+              <h3 class="article__h3">Стандартная комплектация при аренде спутникового телефона:</h3>
+              <ul class="article__complect">
+                <li>- Спутниковый телефон</li>
+                <li>- Зарядное устройство 220В</li>
+                <li>- Защитный кожаный чехол</li>
+                <li>- Сим-карта 
+              </ul>
+              <p>Дополнительные аксессуары, такие как зарядного устройства от прикуривателя автомобиля, дополнительного аккумулятора и т.д. можно арендовать за дополнительную плату.</p>
+              <h3 class="article__h3">Как арендовать спутниковый телефон у нас</h3>
+              <ol>
+                <li>1) Необходимо приехать к нам в офис, если Вы из другого региона РФ мы можем выслать телефон транспортной компанией (арендная плата не взимается на время транспортировки).</li>
+                <li>2) Выбираете способ как оплачивать аренду: посуточно или помесячно. Аренда на целый месяц получается выгоднее.</li>
+                <li>3) Вноситься депозит за аренду спутникового телефона. (Перед началом аренды оплачивается только депозит). Оплата за трафик, доставку, аренду и т.п. - оплачивается после аренды спутникового телефона.</li>
+                <li>4) После возврата с аренды, спутниковый телефон необходимо оставить на проверку и работоспособность нашим специалистам (обычно это занимает не больше 2-х дней).</li>
+                <li>5) По окончанию проверки, мы возвращаем депозит. ( Из суммы депозита вычитаются: услуги за аренду спутникового телефона, израсходованные минуты, дополнительные услуги, если такие использовались).</li>
+              </ol>
+              <div class="article__catalog">
+                <div class="article-item">
                   <a href="iridium9575.php">
-                    <div class="catalog__item-img"><img src="img/iridium-extream.jpg"></div>
-                    <h5 class="catalog__item-title">Iridium Extreme 9575</h5>
-                    <div class="catalog__item-info">Выше класс защиты, программируемая кнопка SOS, встроенный GPS приемник</div>
-                    <div class="catalog__item-footer">
-                      <div class="catalog__item-price">93 000Р</div>
-                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    <div class="article__item-img"><img src="img/globalstar-1700.jpg"></div>
+                    <h5 class="article__item-title">Аренда спутникового телефона GlobalStar Qualcomm GSP1700</h5>
+                    <ul class="article__item-info">
+                      <li>Депозит: 35 000 руб.</li>
+                      <li>Аренда в день: 300 руб.</li>
+                      <li>Аренда в месяц: 6000 руб.</li>
+                      <li>Стоимость исходящей минуты: 45 руб.</li>
+                    </ul>
+                    <div class="article__item-footer">
+                      <div class="article__item-price">93 000Р</div>
+                      <div class="article__item-cart"><a href="#"><img src="img/incart.png"></a></div>
                     </div>
                   </a>
                 </div>
-                <div class="catalog-item">
-                  <a href="iridium_index.php">
-                    <div class="catalog__item-img"><img src="img/iridium-9555.jpg"></div>
-                    <h5 class="catalog__item-title">Iridium 9555</h5>
-                    <div class="catalog__item-info">Современный дизайн. Интуитивный пользовательский интерфейс.</div>
-                    <div class="catalog__item-footer">
-                      <div class="catalog__item-price">88 000Р</div>
-                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                <div class="article-item">
+                  <a href="iridium9575.php">
+                    <div class="article__item-img"><img src="img/globalstar-550.jpg"></div>
+                    <h5 class="article__item-title">Iridium Extreme 9575</h5>
+                    <div class="article__item-info">Выше класс защиты, программируемая кнопка SOS, встроенный GPS приемник</div>
+                    <div class="article__item-footer">
+                      <div class="article__item-price">93 000Р</div>
+                      <div class="article__item-cart"><a href="#"><img src="img/incart.png"></a></div>
                     </div>
                   </a>
                 </div>
               </div>
+              <h3 class="article__h4">Примечание:</h3>
+              <ul class="article__note">
+                <li>- День получения и день возврата спутникового телефона входят в срок аренды.</li>
+                <li>- Вы можете внести депозит переводом денежных средств на банковскую карту.</li>
+              </ul>
             </div>
           </div>
         </div>
