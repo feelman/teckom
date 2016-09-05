@@ -155,7 +155,7 @@
               </ol>
               <div class="article__catalog">
                 <div class="article-item">
-                  <a href="iridium9575.php">
+                  <a href="globalstar_qualcomm-gsp1700.php">
                     <div class="article__item-img"><img src="img/globalstar-1700.jpg"></div>
                     <h5 class="article__item-title">Аренда спутникового телефона GlobalStar Qualcomm GSP1700</h5>
                     <ul class="article__item-info">
@@ -165,19 +165,24 @@
                       <li>Стоимость исходящей минуты: 45 руб.</li>
                     </ul>
                     <div class="article__item-footer">
-                      <div class="article__item-price">93 000Р</div>
-                      <div class="article__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                      <div class="article__item-cart"><a href="#"><img src="img/icon-rent.png"></a></div>
                     </div>
                   </a>
                 </div>
                 <div class="article-item">
-                  <a href="iridium9575.php">
+                  <a href="globalstar_telit-sat550.php">
                     <div class="article__item-img"><img src="img/globalstar-550.jpg"></div>
-                    <h5 class="article__item-title">Iridium Extreme 9575</h5>
-                    <div class="article__item-info">Выше класс защиты, программируемая кнопка SOS, встроенный GPS приемник</div>
+                    <h5 class="article__item-title">Аренда спутникового телефона
+GlobalStar Telit SAT 550</h5>
+                    <ul class="article__item-info">
+                      <li>Депозит: 35 000 руб.</li>
+                      <li>Аренда в день: 300 руб.</li>
+                      <li>Аренда в месяц: 6000 руб.</li>
+                      <li>Стоимость исходящей минуты: 45 руб.</li>
+                      <li>Стоимость SMS-сообщения: 5 руб.</li>
+                    </ul>
                     <div class="article__item-footer">
-                      <div class="article__item-price">93 000Р</div>
-                      <div class="article__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                      <div class="article__item-cart"><a href="#"><img src="img/icon-rent.png"></a></div>
                     </div>
                   </a>
                 </div>
