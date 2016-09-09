@@ -125,6 +125,8 @@
             <div class="breadcrumbs">
               <a href="/">Главная</a>
               <span>>></span>
+              <a href="satellite_phones.php">Спутниковые телефоны</a><br>
+              <span>>></span>
               <a>Телефоны спутниковой связи Iridium</a>
             </div>
             <div class="cart">

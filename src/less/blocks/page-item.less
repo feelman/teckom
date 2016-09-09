@@ -2,3 +2,252 @@
   margin-top: 25px;
 }
 
+.page-item__top {
+  position: relative;
+  min-height: 430px;
+  margin-bottom: 20px;
+  .clearfix();
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 960px;
+    height: 1px;
+    background: url(../img/bg-item-footer.png);
+  }
+}
+
+.page-item__top-left {
+  position: relative;
+  float: left;
+  width: 545px;
+  .clearfix();
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    width: 1px;
+    height: 415px;
+    background: url(../img/bg-item-right.png);
+  }
+}
+
+.page-item__top-right {
+  float: left;
+  width: 359px;
+  margin-left: 57px;
+}
+
+.page-item__image-big {
+  position: relative;
+  float: left;
+  width: 405px;
+  height: 417px;
+  background: url(../img/bg-page-item-active.png) no-repeat 50% #ffffff;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    background: url(../img/icon-arh.png);
+  }
+}
+  
+.item-img-big {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-item__image-small {
+  float: left;
+  margin-left: 3px;
+}
+
+.page-item__image-small-item {
+  position: relative;
+  width: 135px;
+  height: 138px;
+  margin-bottom: 2px;
+  background: url(../img/bg-page-item-small.png) no-repeat 50% #ffffff;
+  cursor: pointer;
+}
+
+.item-img-small1,
+.item-img-small2,
+.item-img-small3 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 121px;
+}
+
+.page-item__image-small-item--active {
+  background: url(../img/bg-page-item-small-active.png) no-repeat 50% #ffffff;
+}
+
+.page-item__title-category {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+
+.page-item__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e86d41;
+  text-transform: uppercase;
+}
+
+.page-item__description {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #292929;
+}
+
+.page-item__buy {
+  .clearfix();
+  margin-bottom: 15px;
+}
+
+.page-item__buy-price {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e86d41;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.page-item__buy-cart {
+  float: right;
+}
+
+.page-item__setting {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #232222;
+  text-transform: uppercase;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -40px;
+    width: 32px;
+    height: 31px;
+    background: url(../img/icon-settings.png);
+  }
+}
+
+.page-item__setting2 {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #252424;
+}
+
+.page-item__footer-btn {
+  margin: 0;
+  padding: 7px 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #969798;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.page-item__menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .clearfix();
+}
+
+.page-item__menu-item {
+  float: left;
+  margin-left: 2px;
+  padding: 7px 12px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #424141;
+  background-color: #acacac;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 1px 0 #000000;
+}
+
+.page-item__menu-item--active {
+  color: #ffffff;
+  background-color: #2c2b2b;
+  box-shadow: none;
+}
+
+.page-item__info {
+  font-size: 24px;
+  color: #424141;
+}
+
+.page-item__info-title {
+  text-transform: uppercase;
+}
+
+.page-item__video {
+  margin-top: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@-moz-document url-prefix() {
+  
+  .page-item__setting {
+    font-size: 19px;
+  }
+  
+  .page-item__footer-btn {
+    font-size: 15px;
+  }
+  
+  .page-item__menu-item {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .page-item__setting {
+    font-size: 19px;
+  }
+  
+  .page-item__footer-btn {
+    font-size: 15px;
+  }
+  
+  .page-item__menu-item {
+    font-size: 18px;
+  }
+}

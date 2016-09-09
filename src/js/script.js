@@ -49,17 +49,29 @@ var imageBig = document.querySelector('.item-img-big');
 var imageSmall1 = document.querySelector('.item-img-small1');
 var imageSmall2 = document.querySelector('.item-img-small2');
 var imageSmall3 = document.querySelector('.item-img-small3');
+var imageSmall1Block = document.querySelector('.page-item__image-small-item--1');
+var imageSmall2Block = document.querySelector('.page-item__image-small-item--2');
+var imageSmall3Block = document.querySelector('.page-item__image-small-item--3');
 
 function imageClick1() {
   imageBig.src = imageSmall1.src;
+  imageSmall1Block.classList.add('page-item__image-small-item--active');
+  imageSmall2Block.classList.remove('page-item__image-small-item--active');
+  imageSmall3Block.classList.remove('page-item__image-small-item--active');
 };
 
 function imageClick2() {
   imageBig.src = imageSmall2.src;
+  imageSmall2Block.classList.add('page-item__image-small-item--active');
+  imageSmall1Block.classList.remove('page-item__image-small-item--active');
+  imageSmall3Block.classList.remove('page-item__image-small-item--active');
 };
 
 function imageClick3() {
   imageBig.src = imageSmall3.src;
+  imageSmall3Block.classList.add('page-item__image-small-item--active');
+  imageSmall1Block.classList.remove('page-item__image-small-item--active');
+  imageSmall2Block.classList.remove('page-item__image-small-item--active');
 };
 
 imageSmall1.addEventListener('click', imageClick1);

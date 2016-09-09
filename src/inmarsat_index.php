@@ -125,7 +125,7 @@
             <div class="breadcrumbs">
               <a href="/">Главная</a>
               <span>>></span>
-              <a>Спутниковые телефоны</a><br>
+              <a href="satellite_phones.php">Спутниковые телефоны</a><br>
               <span>>></span>
               <a>Спутниковые телефоны Inmarsat</a>
             </div>
@@ -136,11 +136,16 @@
           <div class="page-item">
             <div class="page-item__top">
               <div class="page-item__top-left">
-                <div class="page-item__image-big"><img class="item-img-big" src="img/isatphone2-big.jpg" width="200"></div>
+                <div class="page-item__image-big">
+                  <img class="item-img-big" src="img/isatphone2-big.jpg">
+                </div>
                 <div class="page-item__image-small">
-                  <div class="page-item__image-small-item"><img class="item-img-small1" src="img/globalstar-1700.jpg" width="100"></div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--active"><img class="item-img-small2" src="img/isatphone2-small.jpg" width="100"></div>
-                  <div class="page-item__image-small-item"><img class="item-img-small3" src="img/globalstar-550.jpg" width="100"></div>
+                  <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/isatphone2-big.jpg">
+                  </div>
+                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/isatphone2-big.jpg">
+                  </div>
+                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/isatphone2-big.jpg">
+                  </div>
                 </div>
               </div>
               <div class="page-item__top-right">
@@ -149,32 +154,46 @@
                 <p class="page-item__description">Inmarsat отличается расширенным функционалом, который позволит вам оставаться на связи даже в экстремальных условиях и в отдаленных районах.</p>
                 <div class="page-item__buy">
                   <div class="page-item__buy-price">71 000Р</div>
-                  <div class="page-item__buy-cart"><img src="img/icon-cart.png"></div>
+                  <div class="page-item__buy-cart"><a href="#"><img src="img/incart-item.png"></a></div>
                 </div>
                 <span class="page-item__setting">Настройка и сервис по запросу</span>
-                <span>Мы готовы взять на себя установку, настройку</span>
+                <span class="page-item__setting2">Мы готовы взять на себя установку, настройку</span>
                 <div class="page-item__footer">
-                  <a class="page-item__footer-btn">Перезвонить вам?</a>
-                  <a class="page-item__footer-btn">Консультация on-line</a>
+                  <a href="#" class="page-item__footer-btn">Перезвонить вам?</a>
+                  <a href="#" class="page-item__footer-btn">Консультация on-line</a>
                 </div>
               </div>
             </div>
             <div class="page-item__menu">
               <ul class="page-item__menu-list">
-                <li class="page-item__menu-item">Описание</li>
-                <li class="page-item__menu-item">Характеристики</li>
-                <li class="page-item__menu-item">Комплектация</li>
-                <li class="page-item__menu-item">Инструкции</li>
-                <li class="page-item__menu-item">Аксессуары</li>
-                <li class="page-item__menu-item">Тарифы</li>
-                <li class="page-item__menu-item">Отзывы</li>
+                <li>
+                  <a class="page-item__menu-item  page-item__menu-item--active" href="#">Описание</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Характеристики</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Комплектация</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Инструкции</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Аксессуары</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Тарифы</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Отзывы</a>
+                </li>
               </ul>
             </div>
             <div class="page-item__info">
-              <p>IsatPhone 2 от Inmarsat — спутниковый телефон, предназначенный специально для использования в самой надежной спутниковой сети в мире. Данная модель является самой последней разработкой в линейке портативных спутниковых телефонов от компании Inmarsat и отличается расширенным функционалом, который позволит вам оставаться на связи даже в экстремальных условиях и в отдаленных районах.</p>
+              <p><b>IsatPhone 2 от Inmarsat</b> — спутниковый телефон, предназначенный специально для использования в самой надежной спутниковой сети в мире. Данная модель является самой последней разработкой в линейке портативных спутниковых телефонов от компании Inmarsat и отличается расширенным функционалом, который позволит вам оставаться на связи даже в экстремальных условиях и в отдаленных районах.</p>
               <h4 class="page-item__info-title">Особенности IsatPhone 2</h4>
               <strong>Надежность и качество</strong>
-              <p>IsatPhone2 представляет собой очень прочное устройство, способное выдержать неблагоприятные воздействия внешней среды: от обжигающего зноя до ледяного ветра, от песчаных бурь в пустыне до муссонных ливней. IsatPhone2 соответсвует стандарту IK04 и стандарту защищенности от пыли и воды IP65. И всё это — в сочетании с высокой продолжительностью работы от батареи: до 8 часов в режиме разговора и до 160 часов в режиме ожидания. Более того, IsatPhone2 обеспечит вам непревзойденную чистоту звука при голосовых вызовах и отличную стабильность работы. Спутниковый телефон IsatPhone2 — это:</p>
+              <p><b>IsatPhone2</b> представляет собой очень прочное устройство, способное выдержать неблагоприятные воздействия внешней среды: от обжигающего зноя до ледяного ветра, от песчаных бурь в пустыне до муссонных ливней. IsatPhone2 соответсвует стандарту IK04 и стандарту защищенности от пыли и воды IP65. И всё это — в сочетании с высокой продолжительностью работы от батареи: до 8 часов в режиме разговора и до 160 часов в режиме ожидания. Более того, IsatPhone2 обеспечит вам непревзойденную чистоту звука при голосовых вызовах и отличную стабильность работы. Спутниковый телефон IsatPhone2 — это:</p>
               <ul>
                 <li>надежное подключение;</li>
                 <li>быстрая регистрация в сети;</li>
