@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Спутниковые телефоны Inmarsat</title>
+    <title>Спутниковый телефон Inmarsat ISATPHONE 2</title>
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
@@ -127,7 +127,9 @@
               <span>>></span>
               <a href="satellite_phones.php">Спутниковые телефоны</a><br>
               <span>>></span>
-              <a>Спутниковые телефоны Inmarsat</a>
+              <a href="inmarsat_bgan.php">Спутниковые телефоны Inmarsat</a>
+              <span>>></span>
+              <a>ISATPHONE 2</a>
             </div>
             <div class="cart">
               <img src="img/icon-cart.png">
