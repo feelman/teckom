@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Главная</title>
+    <title>Спутниковая связь Thuraya</title>
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
@@ -23,8 +23,8 @@
             ];
             
             var jssor_1_options = {
-              $AutoPlay: true,
-              $SlideDuration: 700,
+              $AutoPlay: false,
+              $SlideDuration: 800,
               $SlideEasing: $Jease$.$OutQuint,
               $CaptionSliderOptions: {
                 $Class: $JssorCaptionSlideo$,
@@ -84,107 +84,113 @@
         </div>
         <nav class="main-nav">
           <ul class="main-nav__list">
-            <li class="main-nav__item">
+            <li class="main-nav__item  main-nav__item--in  main-nav__item--active">
               <a href="satellite_phones.php">
                 <span>Спутниковые телефоны</span>
-                <img src="img/sputnik-tel.jpg">
               </a>
             </li>
-            <li class="main-nav__item">
+            <li class="main-nav__item  main-nav__item--in">
               <a href="#">
                 <span>Спутниковые терминалы</span>
-                <img src="img/sputnik-term.jpg">
               </a>
             </li>
-            <li class="main-nav__item">
+            <li class="main-nav__item  main-nav__item--in">
               <a href="#">
                 <span>M2M трекинг</span>
-                <img src="img/m2m.jpg">
               </a>
             </li>
-            <li class="main-nav__item">
+            <li class="main-nav__item  main-nav__item--in">
               <a href="about_vsat.php">
                 <span>Спутниковые VSAT станции</span>
-                <img src="img/vsat.jpg">
               </a>
             </li>
-            <li class="main-nav__item">
+            <li class="main-nav__item  main-nav__item--in">
               <a href="globalstar_price.php">
                 <span>Тарифы</span>
-                <img src="img/arenda.jpg">
               </a>
             </li>
-            <li class="main-nav__item">
+            <li class="main-nav__item  main-nav__item--in">
               <a href="arenda_sputnikovogo_telefona.php">
                 <span>Аренда</span>
-                <img src="img/arenda.jpg">
               </a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-            <div data-p="225.00" style="display: none;">
-                <a href="#"><img data-u="image" src="img/banner.jpg" /></a>
-            </div>
-            <div data-p="225.00" style="display: none;">
-                <a href="#"><img data-u="image" src="img/banner.jpg" /></a>
-            </div>
-            <div data-p="225.00" data-po="80% 55%" style="display: none;">
-                <a href="#"><img data-u="image" src="img/banner.jpg" /></a>
-            </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-            <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:16px;height:16px;"></div>
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
-    </div>
     <main>
-      <div class="page-main">
+      <div class="page-main  page-main--in">
         <div class="wrapper">
-          <div class="main-left">
-            <h2 class="h2-title  h2-title--news"><a href="company_news1.php">Новости</a></h2>
-            <div class="news">
-              <div class="news__url-all"><a href="company_news1.php">Смотреть все новости</a></div>
-              <div class="news__item">
-                <div class="news__logo"><img src="img/news-globalstar.png"></div>
-                <div class="news__info">Всем купившим спутниковый телефон Qualcomm GSP1700 с подключением тарифного плана "Юбилейный-15" в период с 07 октября 2015 г. по 31 декабря 2015 г. Мы дарим 15 минут на счет.
-      Более подробно с тарифами можно ознакомиться <a class="news__info-url" href="#">тут</a></div>
-                <div class="news__img"><img src="img/news-tel.png"></div>
-              </div>
-              <div class="news__item">
-                <div class="news__logo2"><img src="img/news-iridium.png"></div>
-                <div class="news__info">Предлагаем Вам уникальную возможность обмена Вашей старой спутниковой трубки на новый телефон Iridium!<br>
-    Приобретая новую модель Иридиум 9555, Иридиум Extreme 9575 или Иридиум Extreme PTT, вы сдаете нам старую трубку одной из конкурирующих систем, и получаете скидку до $200. <a class="news__info-url-more" href="#">Подробнее</a></div>
-              </div>
+          <div class="page-main__top">
+            <div class="breadcrumbs">
+              <a href="/">Главная</a>
+              <span>>></span>
+              <a href="satellite_phones.php">Спутниковые телефоны</a><br>
+              <span>>></span>
+              <a>Телефоны спутниковой связи Thuraya</a>
+            </div>
+            <div class="cart">
+              <img src="img/icon-cart.png">
             </div>
           </div>
-          <div class="main-right">
-            <div class="rate">
-              <h2 class="h2-title"><a href="globalstar_price.php">Тарифы</a></h2>
-              <div class="rate__line">
-                <div class="rate__img"><a href="globalstar_features.php"><img src="img/tarif-globalstar.jpg"></a></div>
-                <div class="rate__img"><a href="inmarsat_bgan.php"><img src="img/tarif-inmarsat.jpg"></a></div>
+          <div class="catalog">
+            <h2 class="h2-title  h2-title--in"><a>Спутниковая связь Thuraya</a></h2>
+            <div class="catalog__list">
+              <div class="catalog__list-top">
+                <div class="catalog__list-logo">
+                  <div class="catalog__list-logo-img"><img src="img/logo-thuraya.png"></div>
+                </div>
+                <h4 class="h4-title">Спутниковые телефоны Thuraya</h4>
               </div>
-              <div class="rate__line">
-                <div class="rate__img"><a href="thuraya_about.php"><img src="img/tarif-thurava.jpg"></a></div>
-                <div class="rate__img"><a href="iridium_about.php"><img src="img/tarif-iridium.jpg"></a></div>
+              <div class="catalog__list-top-descr"><p>Частная акционерная компания "Thuraya Satellite Telecommunications Company" была основана в Объединенных Арабских Эмиратах в январе 1997 года для реализации проекта спутниковой подвижной связи. В составе ее акционеров находятся известные национальные операторы связи и финансовые институты стран Азии, Северной Америки и Европы. Разработчик и создатель системы "Турайя" - компания Boeing Satellite Systems, имеющая мировую известность в производстве самолетов и спутников.</p></div>
+              <div class="catalog__list-main">
+                <div class="catalog-item">
+                  <a href="thuraya_satsleeve.php">
+                    <div class="catalog__item-img  catalog__item-img--new"><img src="img/thuraya1.jpg"></div>
+                    <h5 class="catalog__item-title">Thuraya SatSleeve для
+Android</h5>
+                    <div class="catalog__item-info">Можно сделать Samsung Galaxy S4 спутниковым</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price">71 000Р</div>
+                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="thuraya_xt-lite.php">
+                    <div class="catalog__item-img  catalog__item-img--minfree"><img src="img/thuraya2.jpg"></div>
+                    <h5 class="catalog__item-title">Thuraya XT-lite</h5>
+                    <div class="catalog__item-info">Система Thuraya знаменита самой надежной спутниковой сетью. текстовые сообще</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price">34 990Р</div>
+                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="thuraya_xt-pro.php">
+                    <div class="catalog__item-img"><img src="img/thuraya3.jpg"></div>
+                    <h5 class="catalog__item-title">Thuraya XT-PRO</h5>
+                    <div class="catalog__item-info">Это первый спутниковый телефон, оснащенный навигационными системами</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price">66 000Р</div>
+                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="thuraya_index.php ">
+                    <div class="catalog__item-img"><img src="img/thuraya4.jpg"></div>
+                    <h5 class="catalog__item-title">Thuraya XT</h5>
+                    <div class="catalog__item-info">Корпус телефона выполнен из новейших композитных материалов</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price">49 000Р</div>
+                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="urls">
-              <h2 class="h2-title"><a href="#">Ссылки</a></h2>
-              <div class="urls__img"><img src="img/banner-urls.jpg"></div>
             </div>
           </div>
         </div>
