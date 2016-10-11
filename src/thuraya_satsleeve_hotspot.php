@@ -101,7 +101,7 @@
               <div class="page-item__top-right">
                 <h3 class="page-item__title-category">Спутниковые телефоны Thuraya</h3>
                 <h2 class="page-item__title">SatSleeve Hotspot</h2>
-                <p class="page-item__description">Thuraya SatSleeve Hotspot – это универсальная точка доступа с помощью, которой Вы сможете совершать голосовые вызовы, отправлять смс сообщения и т.д</p>
+                <p class="page-item__description">Thuraya SatSleeve Hotspot – это универсальная точка доступа с помощью, которой Вы сможете совершать голосовые вызовы, отправлять смс сообщения и т.д.</p>
                 <div class="page-item__buy">
                   <div class="page-item__buy-price"></div>
                   <div class="page-item__buy-cart"><a href="#"><img src="img/incart-item.png"></a></div>

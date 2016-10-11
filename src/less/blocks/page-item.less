@@ -4,11 +4,11 @@
 
 .page-item__top {
   position: relative;
-  min-height: 430px;
-  margin-bottom: 20px;
+  min-height: 410px;
+  margin-bottom: 40px;
   .clearfix();
   
-  &::after {
+  /*&::after {
     content: '';
     position: absolute;
     bottom: 0px;
@@ -16,7 +16,7 @@
     width: 960px;
     height: 1px;
     background: url(../img/bg-item-footer.png);
-  }
+  }*/
 }
 
 .page-item__top-left {
@@ -185,6 +185,21 @@
   background-color: #969798;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.page-item__menu {
+  
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 960px;
+    height: 1px;
+    background: url(../img/bg-item-footer.png);
+  }
 }
 
 .page-item__menu-list {
