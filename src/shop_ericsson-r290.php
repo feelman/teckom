@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Аренда спутникового телефона</title>
+    <title>Спутниковый телефон Ericsson R-290</title>
     <meta name="viewport" content="width=990">
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -73,73 +73,85 @@
             <div class="breadcrumbs">
               <a href="/">Главная</a>
               <span>>></span>
-              <a>Спутниковые телефоны</a><br>
+              <a href="satellite_phones.php">Спутниковые телефоны</a><br>
               <span>>></span>
-              <a>Аренда спутникового телефона</a>
+              <a href="globalstar_features.php">Спутниковые телефоны Globalstar</a>
+              <span>>></span>
+              <a>Ericsson R-290</a>
             </div>
             <div class="cart">
               <img src="img/icon-cart.png">
             </div>
           </div>
-          <div class="catalog">
-            <h2 class="h2-title  h2-title--in"><a>АРЕНДА СПУТНИКОВОГО ТЕЛЕФОНА</a></h2>
-            <div class="article">
-              <p>Аренда спутниковых телефонов системы Глобалстар подойдет для разовых поездок по России и СНГ. В аренду можно взять телефоны следующих моделей Telit SAT 550 или Qualcomm GSP1700.</p>
-              <h3 class="article__h3">Стандартная комплектация при аренде спутникового телефона:</h3>
-              <ul class="article__complect">
-                <li>- Спутниковый телефон</li>
-                <li>- Зарядное устройство 220В</li>
-                <li>- Защитный кожаный чехол</li>
-                <li>- Сим-карта 
-              </ul>
-              <p>Дополнительные аксессуары, такие как зарядного устройства от прикуривателя автомобиля, дополнительного аккумулятора и т.д. можно арендовать за дополнительную плату.</p>
-              <h3 class="article__h3">Как арендовать спутниковый телефон у нас</h3>
-              <ol>
-                <li>1) Необходимо приехать к нам в офис, если Вы из другого региона РФ мы можем выслать телефон транспортной компанией (арендная плата не взимается на время транспортировки).</li>
-                <li>2) Выбираете способ как оплачивать аренду: посуточно или помесячно. Аренда на целый месяц получается выгоднее.</li>
-                <li>3) Вноситься депозит за аренду спутникового телефона. (Перед началом аренды оплачивается только депозит). Оплата за трафик, доставку, аренду и т.п. - оплачивается после аренды спутникового телефона.</li>
-                <li>4) После возврата с аренды, спутниковый телефон необходимо оставить на проверку и работоспособность нашим специалистам (обычно это занимает не больше 2-х дней).</li>
-                <li>5) По окончанию проверки, мы возвращаем депозит. ( Из суммы депозита вычитаются: услуги за аренду спутникового телефона, израсходованные минуты, дополнительные услуги, если такие использовались).</li>
-              </ol>
-              <div class="article__catalog">
-                <div class="article-item">
-                  <a href="globalstar_qualcomm-gsp1700.php">
-                    <div class="article__item-img"><img src="img/globalstar-1700.jpg"></div>
-                    <h5 class="article__item-title">Аренда спутникового телефона GlobalStar Qualcomm GSP1700</h5>
-                    <ul class="article__item-info">
-                      <li>Депозит: 35 000 руб.</li>
-                      <li>Аренда в день: 300 руб.</li>
-                      <li>Аренда в месяц: 6000 руб.</li>
-                      <li>Стоимость исходящей минуты: 45 руб.</li>
-                    </ul>
-                    <div class="article__item-footer">
-                      <div class="article__item-cart"><a href="#"><img src="img/icon-rent.png"></a></div>
-                    </div>
-                  </a>
+          <div class="page-item">
+            <div class="page-item__top">
+              <div class="page-item__top-left">
+                <div class="page-item__image-big  page-item__image-big--arch">
+                  <img class="item-img-big" src="img/globalstar_ericsson_r290_tecckom 1.png">
                 </div>
-                <div class="article-item">
-                  <a href="globalstar_telit-sat550.php">
-                    <div class="article__item-img"><img src="img/globalstar-550.jpg"></div>
-                    <h5 class="article__item-title">Аренда спутникового телефона
-GlobalStar Telit SAT 550</h5>
-                    <ul class="article__item-info">
-                      <li>Депозит: 35 000 руб.</li>
-                      <li>Аренда в день: 300 руб.</li>
-                      <li>Аренда в месяц: 6000 руб.</li>
-                      <li>Стоимость исходящей минуты: 45 руб.</li>
-                      <li>Стоимость SMS-сообщения: 5 руб.</li>
-                    </ul>
-                    <div class="article__item-footer">
-                      <div class="article__item-cart"><a href="#"><img src="img/icon-rent.png"></a></div>
-                    </div>
-                  </a>
+                <div class="page-item__image-small">
+                  <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/globalstar_ericsson_r290_tecckom 1.png">
+                  </div>
+                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/globalstar_ericsson_r290_tecckom.jpg">
+                  </div>
+                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/globalstar_ericsson_r290_tecckom.jpg">
+                  </div>
                 </div>
               </div>
-              <h3 class="article__h4">Примечание:</h3>
-              <ul class="article__note">
-                <li>- День получения и день возврата спутникового телефона входят в срок аренды.</li>
-                <li>- Вы можете внести депозит переводом денежных средств на банковскую карту.</li>
+              <div class="page-item__top-right">
+                <h3 class="page-item__title-category">Спутниковые телефоны Globalstar</h3>
+                <h2 class="page-item__title">Ericsson R-290</h2>
+                <p class="page-item__description">R290 работает как обычный сотовый телефон (GSM900), когда находится в зоне покрытия. За пределами зоны покрытия телефон переключается в режим спутниковой связи.</p>
+                <div class="page-item__buy">
+                  <div class="page-item__buy-price"></div>
+                  <div class="page-item__buy-cart"><a href="#"><img src="img/incart-item.png"></a></div>
+                </div>
+                <span class="page-item__setting">Настройка и сервис по запросу</span>
+                <span class="page-item__setting2">Мы готовы взять на себя установку, настройку</span>
+                <div class="page-item__footer">
+                  <a href="#" class="page-item__footer-btn">Перезвонить вам?</a>
+                  <a href="#" class="page-item__footer-btn">Консультация on-line</a>
+                </div>
+              </div>
+            </div>
+            <div class="page-item__menu">
+              <ul class="page-item__menu-list">
+                <li>
+                  <a class="page-item__menu-item  page-item__menu-item--active" href="#">Описание</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Характеристики</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Комплектация</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Инструкции</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Аксессуары</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Тарифы</a>
+                </li>
+                <li>
+                  <a class="page-item__menu-item" href="#">Отзывы</a>
+                </li>
               </ul>
+            </div>
+            <div class="page-item__info">
+              <p><b>Режимы:</b> двухмодовый Глобалстар/GSM (900 мГ).</p>
+              <p>Работает как двухмодовый терминал в России. Возможно использовать его как обычный одномодовый сотовый телефон с SIM картой любого оператора GSM.</p>
+              <p><b>Текущие услуги:</b></p>
+              <ol>
+                <li>телефонная связь в режиме Глобалстар и в режиме GSM;</li>
+                <li>сeрвис коротких сообщений (SMS);</li>
+                <li>голосовая почта.</li>
+              </ol>
+              <p><b>Межсетевой роуминг:</b> В стандарте GSM 900 с Российскими операторами GSM, которые предоставляют услуги межсетевого роуминга Глобалстар/GSM (вводится поэтапно с 13 координирующими российскими операторами GSM).</p>
+              <p><b>Международный роуминг:</b> Вводится поэтапно со всеми национальными операторами услуг Глобалстар (более 60 стран Европы, Америки, Австралии, Азии).</p>
+              <p><b>Особенности использования:</b> Используется любая SIM карта для сотовой связи.</p>
+              <p><b>Язык меню:</b> Английский</p>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Спутниковый телефон Iridium 9555</title>
+    <title>Спутниковый телефон Iridium GO!</title>
     <meta name="viewport" content="width=990">
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -77,7 +77,7 @@
               <span>>></span>
               <a href="iridium_about.php">Спутниковые телефоны Iridium</a>
               <span>>></span>
-              <a>Iridium 9555</a>
+              <a>Iridium GO!</a>
             </div>
             <div class="cart">
               <img src="img/icon-cart.png">
@@ -86,24 +86,24 @@
           <div class="page-item">
             <div class="page-item__top">
               <div class="page-item__top-left">
-                <div class="page-item__image-big  page-item__image-big--arch">
-                  <img class="item-img-big" src="img/iridium9555.jpg">
+                <div class="page-item__image-big">
+                  <img class="item-img-big" src="img/iridium-go1.jpg">
                 </div>
                 <div class="page-item__image-small">
-                  <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/iridium9555.jpg">
+                  <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/iridium-go1.jpg">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/iridium9555-2.jpg">
+                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/iridium-go2.jpg">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/iridium9555-3.jpg">
+                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/iridium-go2.jpg">
                   </div>
                 </div>
               </div>
               <div class="page-item__top-right">
                 <h3 class="page-item__title-category">Спутниковые телефоны Iridium</h3>
-                <h2 class="page-item__title">Iridium 9555</h2>
-                <p class="page-item__description">Компактный современный дизайн. Интуитивный пользовательский интерфейс. Простое понятное меню. Корпус обладает повышенной защитой от пыли, влаги, износа и ударов.</p>
+                <h2 class="page-item__title">Iridium GO!</h2>
+                <p class="page-item__description">Iridium GO!, это первый в мире спутниковый Wi-fi hot-spot, с его помощью можно превратить свой смартфон в полноценный спутниковый телефон.</p>
                 <div class="page-item__buy">
-                  <div class="page-item__buy-price"></div>
+                  <div class="page-item__buy-price">71 000Р</div>
                   <div class="page-item__buy-cart"><a href="#"><img src="img/incart-item.png"></a></div>
                 </div>
                 <span class="page-item__setting">Настройка и сервис по запросу</span>
@@ -140,32 +140,42 @@
               </ul>
             </div>
             <div class="page-item__info">
-              <p><b>Иридиум 9555.</b> Компактный современный дизайн. Интуитивный пользовательский интерфейс. Простое понятное меню. Корпус обладает повышенной защитой от пыли, влаги, износа и ударов. Возможность выбора из 21 языка, в том числе русского. В сравнении с 9505А, улучшены, возможности SMS и E-mail, более яркий экран. Громкая связь. Порт Mini-USB. Возможность подключения наушников и гарнитуры hands-free. Автоматическая блокировка телефона и парольная защита SIM-карты (PIN).</p>
+              <p>Iridum GO! создает мобильную зону Wi-fi, где бы Вы не находились, будь то крайний север или самая южная точка земного шара. В зоне действия спутникового Wi-fi одновременно могут работать до пяти смартфонов, совершать голосовые вызовы, проверять электронную почту, отправлять сообщения и использовать приложения. Вы можете вести бизнес, поддерживать связь с родными и близкими, получить доступ к необходимой информации в не зависимости от Вашего места нахождения. И все это с Iridium GO!</p>
+              <p>Данный девайс удобен в использование, корпус оснащен минимальным количеством кнопок, такими как: кнопка питания, кнопка SOS, две кнопки управления меню, также есть несколько разъемов: разъем для зарядки, USB вход и вход для внешней антенны. Можно отметить удобное дополнение в виде отверстия под штатив.</p>
+              <p>Встроенная батарея обеспечит работу Iridium GO! в режиме ожидания до 17 часов, в режиме использования 4-5 часов.</p>
+              <p>Для работы спутникового wi-fi необходимо скачать приложение на Ваш iPhone или Android, приложение бесплатное.</p>
+              <p>Найти его можно в AppStore и Google Play Store.</p>
+              <p>На главной страницы приложения доступны следующие функции:</p>
               <ul>
-                <li>Габариты: 143 мм Х 55 мм Х 30 мм</li>
-                <li>Вес 266 г</li>
-                <li>громкая связь</li>
-                <li>быстрое соединение с голосовой почтой Iridium.</li>
-                <li>переадресация вызовов</li>
-                <li>фиксированный набор номера</li>
-                <li>автоматический набор международного кода страны (00 или +)</li>
-                <li>почтовый ящик для голосовых, цифровых и текстовых сообщений</li>
-                <li>SMS-чат и возможность передавать короткие текстовые сообщения по электронной почте.</li>
-                <li>8 мелодий звонка</li>
-                <li>3 различных тона для клавиш</li>
-                <li>блокировка клавиатуры</li>
-                <li>индикация не принятых вызовов</li>
-                <li>регулировка громкости</li>
-                <li>установка ограничений на диапазон набираемых номеров</li>
-                <li>счетчик длительности последнего разговора</li>
-                <li>счетчик длительности всех совершенных разговоров</li>
-                <li>Память на 100 текстовых и цифровых записей</li>
-                <li>Каждая ячейка памяти позволяет хранить несколько телефонных номеров, адреса электронной почты и примечания</li>
-                <li>Память пропущенных, входящих и исходящих звонков</li>
-                <li>Дополнительный объем памяти на SIM-карте</li>
-                <li>подсвечиваемый ЖК дисплей на 200 символов</li>
-                <li>индикация громкости, мощности сигнала и заряда батареи</li>
-                <li>влагозащищенная клавиатура с подсветкой</li>
+                <li>Настройки </li>
+                <li>Руководство пользователя</li>
+                <li>Телефонная книга</li>
+                <li>Отправка сигнала SOS</li>
+                <li>Отправка сообщения в Twitter</li>
+                <li>Звонок по телефону</li>
+                <li>Геотрекинг</li>
+                <li>СМС сообщения</li>
+              </ul>
+              <p>Также будет доступна отправка сообщений в Skype, WhatsApp и Viber.</p>
+              <p>Приложение на русском языке.</p>
+              <p>ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</p>
+              <p>Габариты:4.5"x 3.25" x 1.25"</p>
+              <p>Защитные характеристики:</p>
+              <ul>
+                <li>защита от физического воздействия (MIL-STD 810F)</li>
+                <li>защита от окружающей среды (IP65)</li>
+              </ul>
+              <p>Легкость использования:</p>
+              <ul>
+                <li>стабильный плоский дизайн</li>
+                <li>поворачивающаяся вверх антенна</li>
+                <li>встроенное меню, дисплей состояния</li>
+              </ul>
+              <p>Гибкость:</p>
+              <ul>
+                <li>встроенный Wi-Fi</li>
+                <li>программный интерфейс для разработчиков</li>
+                <li>надежная платформа с дополнительными приложениями</li>
               </ul>
             </div>
           </div>

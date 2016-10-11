@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Спутниковый телефон Iridium 9555</title>
+    <title>Спутниковый телефон Telit SAT 550</title>
     <meta name="viewport" content="width=990">
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -75,9 +75,9 @@
               <span>>></span>
               <a href="satellite_phones.php">Спутниковые телефоны</a><br>
               <span>>></span>
-              <a href="iridium_about.php">Спутниковые телефоны Iridium</a>
+              <a href="globalstar_features.php">Спутниковые телефоны Globalstar</a>
               <span>>></span>
-              <a>Iridium 9555</a>
+              <a>Telit SAT 550</a>
             </div>
             <div class="cart">
               <img src="img/icon-cart.png">
@@ -87,21 +87,21 @@
             <div class="page-item__top">
               <div class="page-item__top-left">
                 <div class="page-item__image-big  page-item__image-big--arch">
-                  <img class="item-img-big" src="img/iridium9555.jpg">
+                  <img class="item-img-big" src="img/globalstar_telit_sat550_tecckom.png">
                 </div>
                 <div class="page-item__image-small">
-                  <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/iridium9555.jpg">
+                  <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/globalstar_telit_sat550_tecckom.png">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/iridium9555-2.jpg">
+                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/telit_z.gif">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/iridium9555-3.jpg">
+                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/telit_z.gif">
                   </div>
                 </div>
               </div>
               <div class="page-item__top-right">
-                <h3 class="page-item__title-category">Спутниковые телефоны Iridium</h3>
-                <h2 class="page-item__title">Iridium 9555</h2>
-                <p class="page-item__description">Компактный современный дизайн. Интуитивный пользовательский интерфейс. Простое понятное меню. Корпус обладает повышенной защитой от пыли, влаги, износа и ударов.</p>
+                <h3 class="page-item__title-category">Спутниковые телефоны Globalstar</h3>
+                <h2 class="page-item__title">Telit SAT 550</h2>
+                <p class="page-item__description">Двухмодовый телефон Telit SAT 550 отличается легкостью использования как в режиме GSM, так и в режиме Глобалстар.</p>
                 <div class="page-item__buy">
                   <div class="page-item__buy-price"></div>
                   <div class="page-item__buy-cart"><a href="#"><img src="img/incart-item.png"></a></div>
@@ -140,33 +140,33 @@
               </ul>
             </div>
             <div class="page-item__info">
-              <p><b>Иридиум 9555.</b> Компактный современный дизайн. Интуитивный пользовательский интерфейс. Простое понятное меню. Корпус обладает повышенной защитой от пыли, влаги, износа и ударов. Возможность выбора из 21 языка, в том числе русского. В сравнении с 9505А, улучшены, возможности SMS и E-mail, более яркий экран. Громкая связь. Порт Mini-USB. Возможность подключения наушников и гарнитуры hands-free. Автоматическая блокировка телефона и парольная защита SIM-карты (PIN).</p>
-              <ul>
-                <li>Габариты: 143 мм Х 55 мм Х 30 мм</li>
-                <li>Вес 266 г</li>
-                <li>громкая связь</li>
-                <li>быстрое соединение с голосовой почтой Iridium.</li>
+              <p><b>Режимы:</b> двухмодовый Глобалстар/GSM (900 МГц).</p>
+              <p>Работает как двухмодовый терминал в России. Возможно использовать как обычный одномодовый сотовый телефон с SIM картой любого оператора GSM.</p>
+              <p>Прочная конструкция делает его идеальным средством связи для бригад строителей, работающих на неосвоенных территориях, нефтяников, газовиков или путешественников.</p>
+              <p><b>Текущие услуги:</b></p>
+              <ol>
+                <li>телефония</li>
+                <li>асинхронная передача данных Глобалстар/GSM-900</li>
                 <li>переадресация вызовов</li>
-                <li>фиксированный набор номера</li>
-                <li>автоматический набор международного кода страны (00 или +)</li>
-                <li>почтовый ящик для голосовых, цифровых и текстовых сообщений</li>
-                <li>SMS-чат и возможность передавать короткие текстовые сообщения по электронной почте.</li>
-                <li>8 мелодий звонка</li>
-                <li>3 различных тона для клавиш</li>
-                <li>блокировка клавиатуры</li>
-                <li>индикация не принятых вызовов</li>
-                <li>регулировка громкости</li>
-                <li>установка ограничений на диапазон набираемых номеров</li>
-                <li>счетчик длительности последнего разговора</li>
-                <li>счетчик длительности всех совершенных разговоров</li>
-                <li>Память на 100 текстовых и цифровых записей</li>
-                <li>Каждая ячейка памяти позволяет хранить несколько телефонных номеров, адреса электронной почты и примечания</li>
-                <li>Память пропущенных, входящих и исходящих звонков</li>
-                <li>Дополнительный объем памяти на SIM-карте</li>
-                <li>подсвечиваемый ЖК дисплей на 200 символов</li>
-                <li>индикация громкости, мощности сигнала и заряда батареи</li>
-                <li>влагозащищенная клавиатура с подсветкой</li>
-              </ul>
+                <li>запрет вызовов</li>
+                <li>определитель/антиопределителеь номера</li>
+                <li>SMS</li>
+                <li>мобильный интернет</li>
+                <li>служба АССА</li>
+                <li>электронная почта</li>
+                <li>факс-мэйл (входящий)</li>
+                <li>FTP-сервер</li>
+                <li>Голосовая почта</li>
+                <li>факс-мэйл (исходящий).</li>
+              </ol>
+              <p><b>Межсетевой роуминг:</b> В стандарте GSM 900 с Российскими операторами GSM, которые предоставляют услуги межсетевого роуминга Глобалстар/GSM (вводится поэтапно с 13 координирующими российскими операторами GSM).</p>
+              <p><b>Международный роуминг:</b> Вводится поэтапно со всеми национальными операторами услуг Глобалстар (более 60 стран Европы, Америки, Австралии, Азии).</p>
+              <p><b>Особенности использования:</b></p>
+              <ol>
+                <li>Используется любая SIM карта для сотовой связи.</li>
+                <li>В будущем планируется поставка морских терминалов.</li>
+              </ol>
+              <p><b>Язык меню:</b> Английский</p>
             </div>
           </div>
         </div>
