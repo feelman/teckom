@@ -49,15 +49,18 @@ var imageBig = document.querySelector('.item-img-big');
 var imageSmall1 = document.querySelector('.item-img-small1');
 var imageSmall2 = document.querySelector('.item-img-small2');
 var imageSmall3 = document.querySelector('.item-img-small3');
+var imageSmall4 = document.querySelector('.item-img-small4');
 var imageSmall1Block = document.querySelector('.page-item__image-small-item--1');
 var imageSmall2Block = document.querySelector('.page-item__image-small-item--2');
 var imageSmall3Block = document.querySelector('.page-item__image-small-item--3');
+var imageSmall4Block = document.querySelector('.page-item__image-small-item--4');
 
 function imageClick1() {
   imageBig.src = imageSmall1.src;
   imageSmall1Block.classList.add('page-item__image-small-item--active');
   imageSmall2Block.classList.remove('page-item__image-small-item--active');
   imageSmall3Block.classList.remove('page-item__image-small-item--active');
+  imageSmall4Block.classList.remove('page-item__image-small-item--active');
 };
 
 function imageClick2() {
@@ -65,6 +68,7 @@ function imageClick2() {
   imageSmall2Block.classList.add('page-item__image-small-item--active');
   imageSmall1Block.classList.remove('page-item__image-small-item--active');
   imageSmall3Block.classList.remove('page-item__image-small-item--active');
+  imageSmall4Block.classList.remove('page-item__image-small-item--active');
 };
 
 function imageClick3() {
@@ -72,8 +76,18 @@ function imageClick3() {
   imageSmall3Block.classList.add('page-item__image-small-item--active');
   imageSmall1Block.classList.remove('page-item__image-small-item--active');
   imageSmall2Block.classList.remove('page-item__image-small-item--active');
+  imageSmall4Block.classList.remove('page-item__image-small-item--active');
+};
+
+function imageClick4() {
+  imageBig.src = imageSmall4.src;
+  imageSmall4Block.classList.add('page-item__image-small-item--active');
+  imageSmall1Block.classList.remove('page-item__image-small-item--active');
+  imageSmall2Block.classList.remove('page-item__image-small-item--active');
+  imageSmall3Block.classList.remove('page-item__image-small-item--active');
 };
 
 imageSmall1.addEventListener('click', imageClick1);
 imageSmall2.addEventListener('click', imageClick2);
 imageSmall3.addEventListener('click', imageClick3);
+imageSmall4.addEventListener('click', imageClick4);

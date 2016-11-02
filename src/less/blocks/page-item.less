@@ -22,14 +22,14 @@
 .page-item__top-left {
   position: relative;
   float: left;
-  width: 545px;
+  width: 560px; //545
   .clearfix();
   
   &::after {
     content: '';
     position: absolute;
     top: 0px;
-    right: -23px;
+    right: -18px; //23
     width: 1px;
     height: 415px;
     background: url(../img/bg-item-right.png);
@@ -38,8 +38,8 @@
 
 .page-item__top-right {
   float: left;
-  width: 369px;
-  margin-left: 47px;
+  width: 364px; //369
+  margin-left: 37px;
 }
 
 .page-item__image-big {
@@ -78,6 +78,11 @@
 .page-item__image-small {
   float: left;
   margin-left: 3px;
+  
+  &--scroll {
+    height: 420px;
+    overflow-y: scroll;
+  }
 }
 
 .page-item__image-small-item {
@@ -91,7 +96,8 @@
 
 .item-img-small1,
 .item-img-small2,
-.item-img-small3 {
+.item-img-small3,
+.item-img-small4 {
   position: absolute;
   margin: auto;
   top: 0;
@@ -231,6 +237,15 @@
 .page-item__info {
   font-size: 24px;
   color: #424141;
+  
+  &-image {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  & h4 {
+    text-align: center;
+  }
 }
 
 .page-item__info-title {
@@ -269,6 +284,6 @@
   }
   
   .page-item__menu-item {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

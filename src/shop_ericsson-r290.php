@@ -94,8 +94,6 @@
                   </div>
                   <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/globalstar_ericsson_r290_tecckom.jpg">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/globalstar_ericsson_r290_tecckom.jpg">
-                  </div>
                 </div>
               </div>
               <div class="page-item__top-right">
@@ -203,8 +201,14 @@
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>

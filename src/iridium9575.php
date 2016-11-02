@@ -86,16 +86,16 @@
           <div class="page-item">
             <div class="page-item__top">
               <div class="page-item__top-left">
-                <div class="page-item__image-big  page-item__image-big--arch">
+                <div class="page-item__image-big">
                   <img class="item-img-big" src="img/iridium9575.jpg">
                 </div>
                 <div class="page-item__image-small">
                   <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/iridium9575.jpg">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/iridium9575.jpg">
+                  <!-- <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/iridium9575.jpg">
                   </div>
                   <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/iridium9575.jpg">
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="page-item__top-right">
@@ -222,8 +222,14 @@
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>

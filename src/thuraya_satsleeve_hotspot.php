@@ -86,7 +86,7 @@
           <div class="page-item">
             <div class="page-item__top">
               <div class="page-item__top-left">
-                <div class="page-item__image-big">
+                <div class="page-item__image-big  catalog__item-img--new">
                   <img class="item-img-big" src="img/hotspot.jpg">
                 </div>
                 <div class="page-item__image-small">
@@ -200,8 +200,14 @@
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>

@@ -123,6 +123,28 @@
                     </div>
                   </a>
                 </div>
+                <div class="catalog-item">
+                  <a href="iridium_ptt.php">
+                    <div class="catalog__item-img  catalog__item-img--new"><img src="img/iridium-ptt.jpg"></div>
+                    <h5 class="catalog__item-title">Iridium PTT</h5>
+                    <div class="catalog__item-info"></div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price">71 000Р</div>
+                      <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="iridium_9505a.php">
+                    <div class="catalog__item-img  page-item__image-big--arch"><img src="img/iridium9505a.jpg"></div>
+                    <h5 class="catalog__item-title">Iridium 9505A</h5>
+                    <div class="catalog__item-info">Пыле влагозащищенный, противоударный корпус</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price"></div>
+                      <div class="catalog__item-cart  catalog__item-cart--noprice"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="catalog__list">
@@ -136,7 +158,7 @@
               <div class="catalog__list-main">
                 <div class="catalog-item">
                   <a href="globalstar_qualcomm-gsp1600.php">
-                    <div class="catalog__item-img"><img src="img/qual-1600.jpg"></div>
+                    <div class="catalog__item-img  page-item__image-big--arch"><img src="img/qual-1600.jpg"></div>
                     <h5 class="catalog__item-title">Qualcomm GSP 1600</h5>
                     <div class="catalog__item-info">Полный перечень по роумингу с указанием стран и операторов в сотовых сетях</div>
                     <div class="catalog__item-footer">
@@ -156,6 +178,39 @@
                     </div>
                   </a>
                 </div>
+                <div class="catalog-item">
+                  <a href="globalstar_telit-sat550.php">
+                    <div class="catalog__item-img  page-item__image-big--arch"><img src="img/globalstar_telit_sat550_tecckom.png"></div>
+                    <h5 class="catalog__item-title">Telit Sat 550</h5>
+                    <div class="catalog__item-info">Двухмодовый телефон Telit SAT 550 отличается легкостью использования как в режиме GSM</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price"></div>
+                      <div class="catalog__item-cart  catalog__item-cart--noprice"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="globalstar_telit-sat600.php">
+                    <div class="catalog__item-img  page-item__image-big--arch"><img src="img/globalstar_telit_sat600_tecckom.png"></div>
+                    <h5 class="catalog__item-title">Telit SAT 600</h5>
+                    <div class="catalog__item-info">Двухмодовый телефон Telit SAT 600 отличается легкостью использования как в режиме GSM</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price"></div>
+                      <div class="catalog__item-cart  catalog__item-cart--noprice"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="shop_ericsson-r290.php">
+                    <div class="catalog__item-img  page-item__image-big--arch"><img src="img/globalstar_ericsson_r290_tecckom 1.png"></div>
+                    <h5 class="catalog__item-title">Ericsson R-290</h5>
+                    <div class="catalog__item-info">R290 работает как обычный сотовый телефон (GSM900), когда находится в зоне покрытия.</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price"></div>
+                      <div class="catalog__item-cart  catalog__item-cart--noprice"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="catalog__list">
@@ -169,7 +224,7 @@
               <div class="catalog__list-main">
                 <div class="catalog-item">
                   <a href="thuraya_satsleeve.php">
-                    <div class="catalog__item-img  catalog__item-img--new"><img src="img/thuraya1.jpg"></div>
+                    <div class="catalog__item-img  page-item__image-big--arch"><img src="img/thuraya1.jpg"></div>
                     <h5 class="catalog__item-title">Thuraya SatSleeve для
 Android</h5>
                     <div class="catalog__item-info">Можно сделать Samsung Galaxy S4 спутниковым</div>
@@ -202,13 +257,35 @@ Android</h5>
                   </a>
                 </div>
                 <div class="catalog-item">
-                  <a href="thuraya_index.php ">
+                  <a href="thuraya_index.php">
                     <div class="catalog__item-img"><img src="img/thuraya4.jpg"></div>
                     <h5 class="catalog__item-title">Thuraya XT</h5>
                     <div class="catalog__item-info">Корпус телефона выполнен из новейших композитных материалов</div>
                     <div class="catalog__item-footer">
                       <div class="catalog__item-price">49 000Р</div>
                       <div class="catalog__item-cart"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="thuraya_satsleeve_plus.php">
+                    <div class="catalog__item-img  catalog__item-img--new"><img src="img/thuraya-satsleeve-smartphone-satellite-adaptor-282642.jpg"></div>
+                    <h5 class="catalog__item-title">Thuraya SatSleeve +</h5>
+                    <div class="catalog__item-info">Thuraya SatSleeve + - это универсальное устройство, которое позволит пользоваться</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price"></div>
+                      <div class="catalog__item-cart  catalog__item-cart--noprice"><a href="#"><img src="img/incart.png"></a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="catalog-item">
+                  <a href="thuraya_satsleeve_hotspot.php">
+                    <div class="catalog__item-img  catalog__item-img--new"><img src="img/hotspot.jpg"></div>
+                    <h5 class="catalog__item-title">Thuraya SatSleeve HotSpot</h5>
+                    <div class="catalog__item-info">Thuraya SatSleeve Hotspot – это универсальная точка доступа с помощью</div>
+                    <div class="catalog__item-footer">
+                      <div class="catalog__item-price"></div>
+                      <div class="catalog__item-cart  catalog__item-cart--noprice"><a href="#"><img src="img/incart.png"></a></div>
                     </div>
                   </a>
                 </div>
@@ -286,8 +363,14 @@ Android</h5>
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>

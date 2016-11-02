@@ -210,8 +210,14 @@
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>

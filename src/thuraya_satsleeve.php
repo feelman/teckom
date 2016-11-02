@@ -92,10 +92,6 @@
                 <div class="page-item__image-small">
                   <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/sat_android.jpg">
                   </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/sat_android.jpg">
-                  </div>
-                  <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/sat_android.jpg">
-                  </div>
                 </div>
               </div>
               <div class="page-item__top-right">
@@ -193,8 +189,14 @@ SatSleeve для Android выпускается с адаптером для Sam
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>

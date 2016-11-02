@@ -89,12 +89,14 @@
                 <div class="page-item__image-big  page-item__image-big--arch">
                   <img class="item-img-big" src="img/QualcommGSP1600.jpg">
                 </div>
-                <div class="page-item__image-small">
+                <div class="page-item__image-small  page-item__image-small--scroll">
                   <div class="page-item__image-small-item  page-item__image-small-item--1">   <img class="item-img-small1" src="img/QualcommGSP1600.jpg">
                   </div>
                   <div class="page-item__image-small-item  page-item__image-small-item--2">   <img class="item-img-small2" src="img/QualcommGSP1600-2-1.jpg">
                   </div>
                   <div class="page-item__image-small-item  page-item__image-small-item--3">   <img class="item-img-small3" src="img/QualcommGSP1600-3.jpg">
+                  </div>
+                  <div class="page-item__image-small-item  page-item__image-small-item--4">   <img class="item-img-small4" src="img/QualcommGSP1600-4-1.jpg">
                   </div>
                 </div>
               </div>
@@ -239,8 +241,14 @@
             Время работы с 10 до 18. <a class="page-footer__info-map" href="#">Схема проезда.</a>
           </p>
         </div>
+        <?php
+          include('counters.php');
+        ?>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <?php
+      include('callback.php');
+    ?>
   </body>
 </html>
